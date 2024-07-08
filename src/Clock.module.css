@@ -1,0 +1,115 @@
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clock{
+    position: absolute;
+    width: 25rem;
+    height:25rem;
+    background: transparent;
+    border-radius: 50%;
+    text-align: center;
+    top:8rem;
+    left:30rem;
+    box-shadow:5px 5px 40px rgb(199, 199, 199);
+    font-size: 2rem;
+}
+.clock::after{
+    background: gray;
+    content: "";
+    z-index: 2;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    position: absolute;
+    top:11rem;
+    left:12rem
+    
+    
+}
+.hourhand{
+    width: 1rem;
+    height: 9rem;
+    background: black;
+    top: 3rem;
+    left: 12.5rem;
+    position: absolute;
+    transform-origin: bottom;
+    
+}
+.minutehand{
+    width: 0.5rem;
+    height: 9rem;
+    background: black;
+    top: 4rem;
+    left: 15rem;
+    position: absolute;
+    transform-origin: bottom;
+}
+.secondhand{
+    width: 0.2rem;
+    height: 8rem;
+    background: red;
+    top: 6rem;
+    left: 16rem;
+    position: absolute;
+    transform-origin: bottom;
+    
+}
+span{
+    position: absolute;
+}
+.one{
+    top:1.5rem;
+    right:6.5rem;
+    
+}
+.two{
+    top:5rem;
+    right:2.5rem;
+    
+}
+.three{
+    top:10rem;
+    right:1rem;
+}
+.four{
+    top:15.5rem;
+    right:2rem;
+}
+.five{
+    top:20.2rem;
+    right:6rem;
+}
+.six{
+    top:22rem;
+
+}
+.seven{
+    top:20.2rem;
+    left:7rem;
+}
+.eight{
+    
+    top:16.5rem;
+    left:2.5rem;
+}
+.nine{
+    top:10.6rem;
+    left:1rem;
+
+}
+.ten{
+    top:5rem;
+    left:2.5rem;
+   
+}
+.eleven{
+
+    top:1.5rem;
+    left:7rem;
+}
+.twele{
+   right:11rem;
+}
